@@ -1,6 +1,7 @@
 body{
     width: 960px;
     margin: 0 auto;
+
 }
 
 h1{
@@ -37,11 +38,15 @@ h1{
     font-size: 20px;
     color: white;
     text-decoration: none;
+    padding: 0px;
+}
 
+.btn p{
+    margin-top: 12px;
 }
 footer{
     background-color: black;
-    width: 100%;
+    width: 960px;
     height: 55px;
 }
 .footer-right{
@@ -49,4 +54,56 @@ footer{
     font-size: 20px;
     margin-top: 40px;
     padding: 15px;
+}
+
+@media screen and (max-width: 920px){
+    body{
+        width: 100%;
+    }
+    h1{
+        text-align: center;        
+    }
+
+    .contact{
+        margin: 0 auto;        
+        width: 500px;
+        /* height: auto; */
+    }
+
+    footer{
+        margin: 0 auto;
+       width: 100%;
+    }
+}
+
+@media screen and (max-width: 850px){
+    body{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 28px;
+    }
+
+    .contact{
+        margin: 0 auto;        
+        width: 400px;
+    }
+
+    .about{
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .about2{
+        height: 150px;
+        font-size: 16px;
+    }
+
+    footer{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    
 }
